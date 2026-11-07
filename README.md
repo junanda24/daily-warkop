@@ -106,14 +106,15 @@ Lalu buka `http://localhost:8000` di browser HP/desktop.
 │   └── index.html          # game lengkap (satu file, hasil export artifact)
 └── openspec/
     └── changes/
-        └── 2026-11-08-warkop/
-            ├── proposal.md
-            ├── design.md
-            ├── tasks.md
-            ├── specs/warkop/spec.md
-            └── balance/
-                ├── simulate_economy.mjs   # simulasi 1000 sesi × 3 percentile
-                └── BALANCE_economy_2026-11-08.md
+        └── archive/
+            └── 2026-11-08-warkop/
+                ├── proposal.md
+                ├── design.md
+                ├── tasks.md
+                ├── specs/warkop/spec.md
+                └── balance/
+                    ├── simulate_economy.mjs   # simulasi 1000 sesi × 3 percentile
+                    └── BALANCE_economy_2026-11-08.md
 ```
 
 ## Catatan / temuan saat build
@@ -123,7 +124,7 @@ Lalu buka `http://localhost:8000` di browser HP/desktop.
   mudah (pemain lemah tidak pernah kalah), ronde 2 masih mudah,
   ronde 3 lolos semua target — pemain lemah bertahan median 4 hari,
   pemain menengah/jago median 8 hari. Detail di
-  `openspec/changes/2026-11-08-warkop/balance/`.
+  `openspec/changes/archive/2026-11-08-warkop/balance/`.
 - **Harga menu dari riset nyata** (daftar harga warkop 2026), bukan
   angka karangan. Harga upgrade di-tune dari simulasi, bukan dari
   harga dunia nyata.

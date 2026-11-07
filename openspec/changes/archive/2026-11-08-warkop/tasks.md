@@ -3,7 +3,7 @@
 - [x] Explore: baca BUILT.md + IDEAS.md, riset harga warkop 2026, pilih ide + bentuk (game)
 - [x] Propose: proposal.md, specs/warkop/spec.md, design.md, tasks.md (disetujui sendiri)
 - [x] Balance: tulis `balance/simulate_economy.mjs`, jalankan, catat hasil di `balance/BALANCE_economy_2026-11-08.md` (3 ronde tuning, semua target PASS)
-- [ ] Apply: build artifact static "WARKOP!" (slug `warkop`, build dimulai, menunggu hasil builder)
+- [x] Apply: build artifact static "WARKOP!" (slug `warkop`, build selesai + audit lolos)
   - [ ] Layar MENU (judul neon, Buka Warkop, Lanjutkan, high-score, cara main)
   - [ ] HUD (uang, hari, timer, hati, kombo, pangkat, jeda, bisu)
   - [ ] Area meja + pelanggan (4 tipe, gelembung pesanan, bar kesabaran)
@@ -14,9 +14,9 @@
   - [ ] Layar GAME_OVER (skor, pangkat, high-score, restart)
   - [ ] Save/load localStorage berversi + self-healing
   - [ ] SFX WebAudio + tombol bisu persisten
-- [ ] Verify: mainkan alur penuh (menu → hari 1 → akhir hari → toko → hari 2 → game over → restart); cek console error; cek tiap SHALL
-- [ ] Archive: export artifact → `src/`; README lengkap; git init + commit
-- [ ] GitHub: buat repo `junanda24/daily-warkop`, push, verifikasi via API (source ADA di listing)
-- [ ] BUILT.md: tambah baris 2026-11-08
-- [ ] Profile README: tambah baris tabel "Project harian" (+ Live bila terverifikasi)
-- [ ] Log: catat hasil di `~/memory/2026-11-08.md` + tracking entry goal
+- [x] Verify: mainkan alur penuh (menu → hari 1 → akhir hari → toko → hari 2 → game over → restart); cek console error; cek tiap SHALL
+- [x] Archive: export artifact → `src/`; README lengkap; git init + commit
+- [x] GitHub: buat repo `junanda24/daily-warkop`, push, verifikasi via API (source ADA di listing)
+- [x] BUILT.md: tambah baris 2026-11-08
+- [x] Profile README: tambah baris tabel "Project harian" (+ Live bila terverifikasi)
+- [x] Log: catat hasil di `~/memory/2026-11-08.md` + tracking entry goal
